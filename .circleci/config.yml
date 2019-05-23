@@ -43,3 +43,6 @@ workflows:
     jobs:
       - build:
           context: bintray
+          filters:
+            tags:
+              only: /.*/
