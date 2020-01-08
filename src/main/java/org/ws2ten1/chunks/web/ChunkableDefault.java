@@ -21,7 +21,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import org.ws2ten1.chunks.Direction;
+import org.ws2ten1.chunkrequests.Direction;
 
 /**
  * Annotation to set defaults when injecting a {@link org.ws2ten1.chunks.Chunkable} into a controller method.

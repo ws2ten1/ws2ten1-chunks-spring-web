@@ -32,10 +32,10 @@ import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
-import org.ws2ten1.chunks.ChunkRequest;
-import org.ws2ten1.chunks.Chunkable;
-import org.ws2ten1.chunks.Chunkable.PaginationRelation;
-import org.ws2ten1.chunks.Direction;
+import org.ws2ten1.chunkrequests.ChunkRequest;
+import org.ws2ten1.chunkrequests.Chunkable;
+import org.ws2ten1.chunkrequests.Chunkable.PaginationRelation;
+import org.ws2ten1.chunkrequests.Direction;
 
 /**
  * Extracts paging information from web requests and thus allows injecting {@link Chunkable} instances into controller

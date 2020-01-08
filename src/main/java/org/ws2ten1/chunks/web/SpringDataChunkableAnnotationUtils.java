@@ -27,7 +27,7 @@ import org.springframework.core.MethodParameter;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.util.ObjectUtils;
 
-import org.ws2ten1.chunks.Chunkable;
+import org.ws2ten1.chunkrequests.Chunkable;
 
 @UtilityClass
 class SpringDataChunkableAnnotationUtils {

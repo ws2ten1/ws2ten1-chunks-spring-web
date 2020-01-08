@@ -33,9 +33,9 @@ import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
 import org.junit.Test;
-import org.ws2ten1.chunks.Chunkable;
-import org.ws2ten1.chunks.Chunkable.PaginationRelation;
-import org.ws2ten1.chunks.Direction;
+import org.ws2ten1.chunkrequests.Chunkable;
+import org.ws2ten1.chunkrequests.Chunkable.PaginationRelation;
+import org.ws2ten1.chunkrequests.Direction;
 
 /**
  * Test for {@link ChunkableHandlerMethodArgumentResolver}.
