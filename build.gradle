@@ -68,7 +68,7 @@ dependencies {
 	// implementation 'org.springframework.data:spring-data-commons'
 	implementation 'org.springframework:spring-web' // optional to use ChunkableHandlerMethodArgumentResolver
 
-	api 'org.ws2ten1:ws2ten1-chunkrequests:1.0.0-rc1'
+	api 'org.ws2ten1:ws2ten1-chunkrequests:1.0.0-rc3'
 
 	// lombok
 	compileOnly 'org.projectlombok:lombok'
