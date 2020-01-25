@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.ws2ten1.chunks.web;
+package org.polycreo.chunks.web;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.instanceOf;
@@ -33,9 +33,9 @@ import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
 import org.junit.Test;
-import org.ws2ten1.chunkrequests.Chunkable;
-import org.ws2ten1.chunkrequests.Chunkable.PaginationRelation;
-import org.ws2ten1.chunkrequests.Direction;
+import org.polycreo.chunkrequests.Chunkable;
+import org.polycreo.chunkrequests.Chunkable.PaginationRelation;
+import org.polycreo.chunkrequests.Direction;
 
 /**
  * Test for {@link ChunkableHandlerMethodArgumentResolver}.

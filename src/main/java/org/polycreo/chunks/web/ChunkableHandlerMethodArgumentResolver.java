@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.ws2ten1.chunks.web;
+package org.polycreo.chunks.web;
 
 import java.lang.reflect.Method;
 import java.util.Locale;
@@ -32,10 +32,10 @@ import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
-import org.ws2ten1.chunkrequests.ChunkRequest;
-import org.ws2ten1.chunkrequests.Chunkable;
-import org.ws2ten1.chunkrequests.Chunkable.PaginationRelation;
-import org.ws2ten1.chunkrequests.Direction;
+import org.polycreo.chunkrequests.ChunkRequest;
+import org.polycreo.chunkrequests.Chunkable;
+import org.polycreo.chunkrequests.Chunkable.PaginationRelation;
+import org.polycreo.chunkrequests.Direction;
 
 /**
  * Extracts paging information from web requests and thus allows injecting {@link Chunkable} instances into controller

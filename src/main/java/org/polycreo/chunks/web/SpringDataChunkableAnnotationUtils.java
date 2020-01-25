@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.ws2ten1.chunks.web;
+package org.polycreo.chunks.web;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -27,7 +27,7 @@ import org.springframework.core.MethodParameter;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.util.ObjectUtils;
 
-import org.ws2ten1.chunkrequests.Chunkable;
+import org.polycreo.chunkrequests.Chunkable;
 
 @UtilityClass
 class SpringDataChunkableAnnotationUtils {

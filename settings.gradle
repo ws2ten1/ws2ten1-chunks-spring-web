@@ -3,4 +3,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'ws2ten1-chunks-spring-web'
+rootProject.name = 'polycreo-chunks-spring-web'

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.ws2ten1.chunks.web;
+package org.polycreo.chunks.web;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -21,10 +21,10 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import org.ws2ten1.chunkrequests.Direction;
+import org.polycreo.chunkrequests.Direction;
 
 /**
- * Annotation to set defaults when injecting a {@link org.ws2ten1.chunks.Chunkable} into a controller method.
+ * Annotation to set defaults when injecting a {@link org.polycreo.chunks.Chunkable} into a controller method.
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
@@ -38,7 +38,7 @@ public @interface ChunkableDefault {
 	int value() default 10;
 	
 	/**
-	 * The default-size the injected {@link org.ws2ten1.chunks.Chunkable} should get if no corresponding
+	 * The default-size the injected {@link org.polycreo.chunks.Chunkable} should get if no corresponding
 	 * parameter defined in request (default is 10).
 	 */
 	int size() default 10;
