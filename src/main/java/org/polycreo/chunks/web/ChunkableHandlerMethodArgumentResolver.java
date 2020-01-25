@@ -92,7 +92,8 @@ public class ChunkableHandlerMethodArgumentResolver implements HandlerMethodArgu
 		
 		if (defaultPageSize < 1) {
 			Method annotatedMethod = parameter.getMethod();
-			throw new IllegalStateException(String.format(Locale.ENGLISH, INVALID_DEFAULT_PAGE_SIZE, annotatedMethod));
+			throw new IllegalStateException(String.format(
+					Locale.ENGLISH, INVALID_DEFAULT_PAGE_SIZE, annotatedMethod));
 		}
 		
 		return new ChunkRequest(defaultPageSize, defaults.direction());
